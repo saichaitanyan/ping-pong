@@ -1,0 +1,20 @@
+{
+  "name": "master-server",
+  "version": "1.0.0",
+  "description": "The master server will listen to their slave servers with the help of sockets",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sai Chaitanya Nare",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
